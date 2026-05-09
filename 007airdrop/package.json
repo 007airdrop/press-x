@@ -1,0 +1,34 @@
+{
+  "name": "press-to-start-frame",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@coinbase/onchainkit": "^0.35.0",
+    "@farcaster/frame-sdk": "^0.0.17",
+    "@tanstack/react-query": "^5.59.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.11",
+    "lucide-react": "^0.454.0",
+    "next": "15.0.3",
+    "react": "19.0.0-rc-6630e52b03-20241027",
+    "react-dom": "19.0.0-rc-6630e52b03-20241027",
+    "tailwind-merge": "^2.5.4",
+    "viem": "^2.21.31",
+    "wagmi": "^2.12.17"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5"
+  }
+}
